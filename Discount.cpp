@@ -27,6 +27,6 @@ int main()
     else
     discount= 0;
 
- cout << "Discount  is -> " << pay << endl;
+ cout << "Discount  is -> " << discount << endl;
 
 }
