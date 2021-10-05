@@ -28,7 +28,7 @@ int main()
     {
       discount = 0;
     }
-   cout << "Discount  is -> " << discount << endl;
+   cout << "Discount  is -> " << pay << endl;
    return 0;
 
 }
