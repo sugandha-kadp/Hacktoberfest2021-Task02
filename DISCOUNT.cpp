@@ -28,5 +28,6 @@ int main()
     discount= 0;
 
  cout << "Discount  is -> " << discount << endl;
+ return 0;
 
 }
