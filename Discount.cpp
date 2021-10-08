@@ -1,22 +1,22 @@
-#include <stdio>
-using namespace stdd;
+#include <iostream>
+using namespace std;
 
 int main()
 {
 
  float pay,discount;
 
- cout << "Enter Payment amount : "
+ cout << "Enter Payment amount : ";
  cout >> pay;
 
     if (p > 10000)
     {
-      discount=pay*25/100
+      discount=(pay*25)/100;
     }
 
     else if (pay > 5000)
     {
-      discount=pay*15/100;
+      discount=(pay*15)/100;
     }
 
     else if (pay > 3000)
@@ -28,5 +28,6 @@ int main()
     discount= 0;
 
  cout << "Discount  is -> " << pay << endl;
+ return 0;
 
 }
