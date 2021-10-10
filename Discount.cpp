@@ -1,14 +1,12 @@
 #include <stdio>
-using namespace stdd;
-
 int main()
 {
 
  float pay,discount;
 
- cout << "Enter Payment amount : "
- cout >> pay;
-
+ std::cout << "Enter Payment amount : "
+ std::cout >> pay;
+    //check
     if (p > 10000)
     {
       discount=pay*25/100
@@ -25,8 +23,8 @@ int main()
     }
 
     else
-    discount= 0;
+      discount= 0;
 
- cout << "Discount  is -> " << pay << endl;
+ std::cout << "Discount  is : " << pay << endl;
 
 }
