@@ -1,32 +1,50 @@
-#include <stdio>
-using namespace stdd;
+#include <iostream>
+using namespace std;
+
+
 
 int main()
 {
 
- float pay,discount;
 
- cout << "Enter Payment amount : "
- cout >> pay;
 
-    if (p > 10000)
-    {
-      discount=pay*25/100
-    }
+float pay,discount;
 
-    else if (pay > 5000)
-    {
-      discount=pay*15/100;
-    }
 
-    else if (pay > 3000)
-    {
-      discount=pay*10/100;
-    }
 
-    else
-    discount= 0;
+cout << "Enter Payment amount : ";
+cin >> pay;
 
- cout << "Discount  is -> " << pay << endl;
+
+
+if (pay > 10000)
+{
+discount= pay*25/100;
+}
+
+
+
+else if (pay > 5000)
+{
+discount= pay*15/100;
+}
+
+
+
+else if (pay > 3000)
+{
+discount=pay*10/100;
+}
+
+
+
+else
+discount= 0;
+
+
+
+cout << "Discount is -> " << discount << endl;
+
+
 
 }
