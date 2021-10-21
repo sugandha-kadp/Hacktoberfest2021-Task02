@@ -1,5 +1,5 @@
-#include <stdio>
-using namespace stdd;
+#include <stdio.h>
+using namespace std;
 
 int main()
 {
@@ -7,7 +7,7 @@ int main()
  float pay,discount;
 
  cout << "Enter Payment amount : "
- cout >> pay;
+ cin >> pay;
 
     if (p > 10000)
     {
@@ -27,6 +27,6 @@ int main()
     else
     discount= 0;
 
- cout << "Discount  is -> " << pay << endl;
+ cout << "Discount  is -> " << discount<< endl;
 
 }
