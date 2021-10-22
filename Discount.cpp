@@ -24,8 +24,9 @@ int main()
       discount=pay*10/100;
     }
 
-    else
-    discount= 0;
+    else{
+       discount= 0;
+    }
 
  cout << "Discount  is -> " << discount << endl;
 
